@@ -83,10 +83,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/service"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Service
               </Nav.Link>
             </Nav.Item>
 
@@ -101,10 +101,11 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href=""
+                href="https://github.com/Rub3cK0r3/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
+
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
