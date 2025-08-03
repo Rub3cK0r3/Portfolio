@@ -15,29 +15,38 @@ import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-    </Row>
+ <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+  <Col xs={4} md={2} className="tech-icons">
+    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">
+      <DiJavascript1 />
+    </a>
+  </Col>
+  <Col xs={4} md={2} className="tech-icons">
+    <a href="https://es.wikipedia.org/wiki/Python" target="_blank" rel="noopener noreferrer">
+      <DiPython />
+    </a>
+  </Col>
+  <Col xs={4} md={2} className="tech-icons">
+    <a href="https://en.wikipedia.org/wiki/React_(software)" target="_blank" rel="noopener noreferrer">
+      <DiReact />
+    </a>
+  </Col>
+  <Col xs={4} md={2} className="tech-icons">
+    <a href="https://en.wikipedia.org/wiki/Git" target="_blank" rel="noopener noreferrer">
+      <DiGit />
+    </a>
+  </Col>
+  <Col xs={4} md={2} className="tech-icons">
+    <a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank" rel="noopener noreferrer">
+      <SiPostgresql />
+    </a>
+  </Col>
+  <Col xs={4} md={2} className="tech-icons">
+    <a href="https://en.wikipedia.org/wiki/Java" target="_blank" rel="noopener noreferrer">
+      <DiJava />
+    </a>
+  </Col>
+</Row>
   );
 }
 

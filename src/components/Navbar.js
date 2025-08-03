@@ -75,7 +75,7 @@ function NavBar() {
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                />{" "}
+                />
                 Projects
               </Nav.Link>
             </Nav.Item>
@@ -86,7 +86,9 @@ function NavBar() {
                 to="/service"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Service
+                <AiOutlineUser style={{ marginBottom: "2px" }} 
+                /> 
+                Service
               </Nav.Link>
             </Nav.Item>
 
@@ -99,19 +101,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/Rub3cK0r3/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
+                    
+          <Nav.Item className="fork-btn">
+            <Button
+              href="https://github.com/Rub3cK0r3/Portfolio"
+              target="_blank"
+              className="fork-btn-inner"
+            >
+
+              <CgGitFork style={{ fontSize: "1.3em", verticalAlign: "middle" }} />{" "}
+              <AiFillStar style={{ fontSize: "1.1em", verticalAlign: "middle" }} />
+            </Button>
+          </Nav.Item>
+          
       </Container>
     </Navbar>
   );

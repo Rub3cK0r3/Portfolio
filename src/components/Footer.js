@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href=""
+                href="https://github.com/Rub3cK0r3"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href=""
+                href="https://www.linkedin.com/in/rub%C3%A9n-martinez-agramunt-366971324/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

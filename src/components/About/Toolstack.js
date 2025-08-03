@@ -9,10 +9,15 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+          <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code" target="_blank" rel="noopener noreferrer">
+            <SiVisualstudiocode />
+          </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <a href="https://es.wikipedia.org/wiki/GNU/Linux" target="_blank" rel="noopener noreferrer">
+          <SiLinux />
+        </a>
+
       </Col>
     </Row>
   );
