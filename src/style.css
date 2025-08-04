@@ -5,7 +5,7 @@ html {
   --glass-bg: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.2);
   --primary-color: #b833ff;
-  --accent-color: #ff4db8;
+  --accent-color: #b833ff;
 }
 
 body {
@@ -338,6 +338,7 @@ button:focus {
   background-color: var(--glass-bg);
   color: white;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  margin: 10px;
 }
 
 .project-card-view:hover,
